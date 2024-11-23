@@ -7,8 +7,8 @@ const heebo = Heebo({ subsets: ["latin"] });
 const Card = () => {
   return (
     <div>
-      <div className=" md:w-[483px] h-[356px]  bg-white">
-        <div className="m-auto  w-[391px] mt-5">
+      <div className="w-[350px] md:w-[483px] h-[356px]  bg-white">
+        <div className="m-auto  md:w-[391px] mt-5">
           <h2 className={`${heebo.className} font-bold  text-[26px] p-4 `}>
             Making a design system from scratch
           </h2>
@@ -31,7 +31,7 @@ const Card = () => {
             Design, Pattern
           </p>
         </div>
-        <p className="sm:ml-16 sm:w-[70%] w-[68%] ml-7">
+        <p className="sm:ml-16 sm:w-[70%] w-[68%] md:ml-16 ml-6">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet.

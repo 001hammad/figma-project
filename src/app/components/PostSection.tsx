@@ -9,12 +9,12 @@ const PostSection = () => {
     <div className="bg-recentbg py-[66px]">
       {/* Header Section */}
       <div className=" w-[92%] md:w-[1040px] mx-auto p-6 flex justify-between items-center">
-        <h2 className={`${heebo.className} text-[22px] font-medium`}>
+        <h2 className={`${heebo.className} text-lg md:text-[22px] font-medium`}>
           Recent Post
         </h2>
         <Link
           href={""}
-          className={`${heebo.className} text-[22px] font-medium text-mypink`}
+          className={`${heebo.className} text-lg md:text-[22px] font-medium text-mypink`}
         >
           View all
         </Link>
